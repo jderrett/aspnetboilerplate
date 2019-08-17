@@ -74,7 +74,7 @@ public class Address : ValueObject
 Here's the same Address class that inherits from the **ValueObject&lt;T&gt;**.
 
 ````csharp
-public class Address : ValueObject<Address>
+public class AddressAnother : ValueObject<Address>
 {
     public Guid CityId { get; }
 
